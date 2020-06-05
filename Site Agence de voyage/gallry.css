@@ -1,0 +1,16 @@
+
+
+
+.gally{
+
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.gally .gal{
+
+width: 50%;
+}

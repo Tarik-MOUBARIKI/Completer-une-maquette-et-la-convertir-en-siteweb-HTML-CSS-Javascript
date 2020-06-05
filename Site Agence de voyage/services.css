@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.Price {
+	font-size: 28px;
+	text-align: center;
+	background-color: #fff ;
+	width: 657px;
+	height: 400px;
+	padding: 40px;
+	margin: 80px;
+	border: 8px solid;
+	border-color: #DCDCDC;
+}
+
+.Price>center{
+		display: flex;
+		text-align: left;
+		padding: 20px;
+}
+
+
+
+.Price center div {
+	width: 120px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.Price div img{
+	height: auto;
+	width: 100%;
+}
+
+.Price h1{
+	margin-top: 0;
+}
+
+.Price .test {
+	width: 100%;
+
+		padding-left: 20px;
+
+}
+
+section .flex1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+
+.Price:hover{
+
+	border: 10px solid;
+	border-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

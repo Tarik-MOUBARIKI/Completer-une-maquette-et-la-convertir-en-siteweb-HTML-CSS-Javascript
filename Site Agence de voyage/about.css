@@ -1,0 +1,113 @@
+
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+
+section{
+	text-align: center;
+	margin-top: 15px;
+}
+
+section p{
+	margin: auto;
+	padding: 20px;
+	text-align: left;
+	max-width: 1655px;
+}
+
+#camping>.article1>h1{
+	font-size: 45px;
+	padding: 20px;
+}
+
+#camping>.article1>div{
+	margin: auto;
+	max-width: 748px;
+}
+
+#camping>.article1>div>img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width:650px){
+	#camping>.article1 div{
+		width: 95%;
+	}
+}
+
+
+#camping>.article2{
+	margin-top: 80px;
+}
+
+#camping>.article2>div{
+	max-width: 546px;
+}
+
+#camping>.article2>div>img{
+	width: 100%;
+	height: auto;
+}
+
+#camping>.article3>h1{
+	font-size: 70px;
+	padding:20px;
+}
+
+@media screen and (max-width: 500px){
+	#camping>.article2>div{
+		width: 95%;
+	}
+
+}
+
+#sign{
+	background: url(img/twil.png);
+	background-size: cover;
+	height: 264px;
+}
+
+#sign>div{
+	padding-top: 30px;
+	margin: auto;
+	color: white;
+	max-width: 900px;
+	align-items: flex-end;
+}
+
+#sign>div>label>h1{
+	text-align: left;
+}
+
+#sign>div>label>input{
+	width: 674px;
+	height: 65px;
+	border-radius: 10px;
+}
+
+#sign>div>input{
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 194px;
+	height: 65px;
+	background-color: #C49D48;
+	border: none;
+}
+
+@media screen and (max-width: 721px){
+	#sign>div>label>input{
+		width: 320px;
+	}
+}
+
+
+
+
+
